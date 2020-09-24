@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "superman",
+    "password": "manofsteel",
+    "books": []
+  },
+  {
+    "id": 2,
+    "name": "batman",
+    "password": "darkknight",
+    "books": []
+  }
+]
+
+
+

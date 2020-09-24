@@ -1,0 +1,337 @@
+body,
+html {
+  font-family: lato;
+  color: #6c7279;
+  background: #f2f2f2;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.container {
+  padding: 8% 0 0;
+  margin: auto;
+  position: relative;
+  margin: 0 auto 10px;
+  padding: 60px;
+  text-align: left;
+  background: #ffffff;
+  width: 30%;
+}
+.home-container {
+  display: flex;
+}
+.validation {
+  display: none;
+}
+.trending-container {
+  background: white;
+  float: center;
+  width: 46%;
+  padding: 30px 30px 30px 30px;
+  border-radius: 8px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.checkout-container {
+  background: white;
+  float: center;
+  width: 90%;
+  padding: 30px 30px 30px 30px;
+  border-radius: 8px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.word-table div {
+  display: inline-block;
+  color: black;
+  padding: 10px 40px 5px 10px;
+  font-size: 18px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.login-button {
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #8733bf;
+  width: 30%;
+  color: #ffffff;
+  float: left;
+  cursor: pointer;
+}
+
+.register-button {
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #280066;
+  width: 30%;
+  color: #ffffff;
+  float: right;
+  cursor: pointer;
+}
+
+.back-button {
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #280066;
+  width: 30%;
+  color: #ffffff;
+  float: right;
+  cursor: pointer;
+}
+
+.logout-button {
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #280066;
+  width: 15%;
+  color: #ffffff;
+  float: right;
+  cursor: pointer;
+}
+
+.cart-button {
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #8733bf;
+  width: 15%;
+  color: #ffffff;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.search-button {
+  display: inline-flex;
+  border: none;
+  background-color: white;
+  background-image: url("./../img/searchicon.png");
+  background-position: 50% 50%;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  padding: 0px 10px 25px 10px;
+  border-radius: 0 4px 4px 0;
+  outline: none;
+  height: 35px;
+  width: 4%;
+  cursor: pointer;
+}
+
+.textbox {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.textbox-login {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  border-radius: 0px;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.textbox-search {
+  border-radius: 4px 0px 0px 4px;
+  background: #ffffff;
+  width: 77%;
+  height: 60px;
+  margin-top: -100px;
+}
+.search-dropdown {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  margin: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 4px 0px 0px 4px;
+  background: #ffffff;
+  width: 14%;
+  height: 60px;
+  cursor: pointer;
+}
+.title-login {
+  font-size: 1.5em;
+  text-align: center;
+  color: #8733bf;
+  margin-top: 100px;
+}
+
+.trending-table {
+  border-collapse: collapse;
+}
+.trending-table td {
+  padding: 10px 10px 28px 10px;
+}
+.trending-table tr {
+  border-bottom: 1px solid #cecece;
+}
+
+.trending-table tr.trending-table-heading {
+  border: 0;
+}
+
+.search-results {
+  background: white;
+  float: left;
+  width: 97%;
+  padding: 30px 0px 30px 30px;
+  border-radius: 8px;
+}
+.search-results table {
+  width: 97%;
+}
+.search-results td {
+  text-align: left;
+  text-decoration-style: none;
+}
+a.device-link {
+  text-decoration: none;
+  color: black;
+}
+.search-results-heading-column {
+  padding-left: 12px;
+  padding-right: 20px;
+}
+.search-results th {
+  color: #6d20cd;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.book {
+  background: white;
+  float: left;
+  width: 97%;
+  padding: 30px 0px 30px 30px;
+  border-radius: 8px;
+}
+
+.cover-image {
+  height: 300px;
+  width: 100%;
+}
+
+.book-cover {
+  width: 20%;
+  display: inline-block;
+  float: left;
+  margin-right: 40px;
+}
+
+.book-content {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 40px;
+}
+
+.borrow-button {
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #21a530;
+  width: 100%;
+  color: #ffffff;
+  cursor: pointer;
+}
+.checkoutCart-button {
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #21a530;
+  width: 20%;
+  color: #ffffff;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.unavailable-button {
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 100%;
+  color: #ffffff;
+  background: #f40000;
+  cursor: pointer;
+}
+
+.remove-button {
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 100%;
+  color: #000000;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.incart-button {
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 100%;
+  color: #ffffff;
+  background: #f47100;
+  cursor: pointer;
+}
+
+.fade-enter {
+  opacity: 0.01;
+  transform: scale(0.9) translateY(0%);
+}
+.fade-enter-active {
+  opacity: 0.9;
+  transform: scale(1) translateY(0%);
+  transition: all 300ms linear;
+}
+.fade-exit {
+  opacity: 0.9;
+  transform: scale(1);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: scale(0);
+  transition: all 300ms linear;
+}
